@@ -43,7 +43,7 @@ apiConfig=apiConfigTeachingAssistant(pwPage,<course_link>,<language>,<teaching_a
 
 >first argument takes the playwright setup variable
 
->the second one takes the course link(the link in student panel)
+>the second one takes the course link(the link in student panel (Example:https://www.udemy.com/course/draft/2642432/learn/lecture/19636798?start=0#questions))
 
 >the third option is the language. EN and TR supported. It's the language of your udemy panel
 
@@ -90,7 +90,7 @@ apiConfig=apiConfigStandard(pwPage,<course_link>,<language>)
 
 >first argument takes the playwright setup variable
 
->the second one takes the course link(the link in teaching assistant panel)
+>the second one takes the course link(the link in teaching assistant panel (example:https://www.udemy.com/instructor/communication/qa/18463410/detail/))
 
 >the last option is the language. EN and TR supported. It's the language of your udemy panel
 
@@ -132,3 +132,5 @@ print(uAPI.getLinks)
 print(len(uAPI.getLinks))
 ```
 > you can use the len() function to see the number of links
+
+# Example Script:
